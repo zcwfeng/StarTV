@@ -4,7 +4,7 @@
 ## 以下是操作效果
 
 
-![](./screen/demo1.jpg =300x480)
+![](https://github.com/zcwfeng/StarTV/tree/master/screen/demo1.jpg =300x480)
 
 ![](./screen/demo2.jpg =300x480)
 
