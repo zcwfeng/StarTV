@@ -4,7 +4,7 @@
 ## 以下是操作效果
 
 
-![](https://raw.github.com/zcwfeng/repositpry/master/StarTV/screen/demo1.jpg =300x480)
+![Image text](https://raw.github.com/zcwfeng/repositpry/master/StarTV/screen/demo1.jpg =300x480)
 
 ![](./screen/demo2.jpg =300x480)
 
