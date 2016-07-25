@@ -1,8 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
 
 import React, { Component } from 'react';
 import {
@@ -15,14 +10,16 @@ import {
   Picker,
   Image,
   ProgressBarAndroid,
+  ScrollView,
 } from 'react-native';
+
 import TitleBar from './ui-custom-component/TitleBar';
 import SlideContentHeader from './ui-custom-component/SlideContentHeader';
 import TabNavigator from 'react-native-tab-navigator';
+import ScrollableTabView,{ScrollableTabBar,} from 'react-native-scrollable-tab-view';
+
 
 var onePT = 1 / PixelRatio.get();
-
-
 class StarTV extends Component {
 
     constructor(props) {
@@ -41,8 +38,24 @@ class StarTV extends Component {
     );
 
     var homeView = (
-     <View style={[styles.flex, styles.center, styles.customBg]}>
-       <Text style={styles.customText}>我是首页</Text>
+     <View style={[styles.flex, styles.center]}>
+       <ScrollableTabView
+           initialPage={0}
+           renderTabBar={() => <ScrollableTabBar/>}
+           >
+
+            <ScrollView tabLabel="我的" style={styles.tabView}>
+              <View style={styles.card}>
+                <Text>News</Text>
+              </View>
+          </ScrollView>
+          <ScrollView tabLabel="全新" style={styles.tabView}>
+              <View style={styles.card}>
+                <Text>Friends</Text>
+              </View>
+          </ScrollView>
+
+      </ScrollableTabView>
      </View>
    );
 
@@ -177,6 +190,28 @@ const styles = StyleSheet.create({
    customContainer: {
      textAlign: 'auto'
    },
+   card: {
+    borderWidth: 1,
+    backgroundColor: '#fff',
+    borderColor: 'rgba(0,0,0,0.1)',
+    margin: 5,
+    height: 150,
+    padding: 15,
+    shadowColor: '#ccc',
+    shadowOffset: { width: 2, height: 2, },
+    shadowOpacity: 0.5,
+    shadowRadius: 3,
+  },
+  tabView: {
+    flex: 1,
+    padding: 10,
+    backgroundColor: 'rgba(0,0,0,0.01)',
+  },
+  icon: {
+    width: 300,
+    height: 300,
+    alignSelf: 'center',
+  },
 });
 
 AppRegistry.registerComponent('StarTV', () => StarTV);
