@@ -17,7 +17,7 @@ import TitleBar from './ui-custom-component/TitleBar';
 import SlideContentHeader from './ui-custom-component/SlideContentHeader';
 import TabNavigator from 'react-native-tab-navigator';
 import ScrollableTabView,{ScrollableTabBar,} from 'react-native-scrollable-tab-view';
-
+import VerticalListView from './ui-custom-component/VerticalListView';
 
 var onePT = 1 / PixelRatio.get();
 class StarTV extends Component {
@@ -45,9 +45,8 @@ class StarTV extends Component {
            >
 
             <ScrollView tabLabel="我的" style={styles.tabView}>
-              <View style={styles.card}>
-                <Text>News</Text>
-              </View>
+
+              <VerticalListView/>
           </ScrollView>
           <ScrollView tabLabel="全新" style={styles.tabView}>
               <View style={styles.card}>
