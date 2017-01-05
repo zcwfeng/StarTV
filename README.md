@@ -4,14 +4,14 @@
 ## 以下是操作效果
 
 
-![操作效果{320x480}](https://raw.githubusercontent.com/zcwfeng/StarTV/master/screen/demo1.jpg)
+![操作效果{240x360}](https://raw.githubusercontent.com/zcwfeng/StarTV/master/screen/demo1.jpg)
 
 
-![操作效果{320x480}](https://github.com/zcwfeng/StarTV/raw/master/screen/demo2.jpg)
+![操作效果{240x360}](https://github.com/zcwfeng/StarTV/raw/master/screen/demo2.jpg)
 
 > 效果
 
-![效果{320x480}](https://github.com/zcwfeng/StarTV/raw/master/screen/demo-2016 17-21-20.gif)
+![效果{240x360}](https://github.com/zcwfeng/StarTV/raw/master/screen/demo-2016 17-21-20.gif)
 
 
 ``` xml
