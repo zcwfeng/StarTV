@@ -1,6 +1,16 @@
 # StarTV
 基于React Native 的练习项目，欢迎start
 
+# 安装
+* 需要安装好npm和nodejs环境,搭建好React Native
+[参见中文官网](https://reactnative.cn/docs/0.51/getting-started.html)
+*版本问题:`ReactNative 有的版本可能不太对,针对性的调整下`
+> npm install
+
+> react-native run-ios 或 react-native run-android
+
+>  安装到指定的ios模拟器 `react-native run-ios --simulator="iPhone X`
+
 ## 以下是操作效果
 
 
