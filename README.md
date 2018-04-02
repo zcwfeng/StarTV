@@ -7,7 +7,8 @@
 * 需要安装好npm和nodejs环境,搭建好React Native
 [参见中文官网](https://reactnative.cn/docs/0.51/getting-started.html)
 
-*版本问题:`ReactNative 有的版本可能不太对,针对性的调整下`
+* 版本问题:`ReactNative 有的版本可能不太对,针对性的调整下`
+
 > npm install
 
 > react-native run-ios 或 react-native run-android
