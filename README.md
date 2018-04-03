@@ -15,6 +15,8 @@
 
 >  安装到指定的ios模拟器 `react-native run-ios --simulator="iPhone X`
 
+> 重构后加入yarn  [参考yarn使用](https://yarn.bootcss.com/docs/usage.html)
+
 ## 以下是操作效果
 
 
