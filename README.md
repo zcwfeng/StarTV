@@ -17,6 +17,11 @@
 
 > 重构后加入yarn  [参考yarn使用](https://yarn.bootcss.com/docs/usage.html)
 
+
+## 问题参照
+
+[react native 常见问题总结](https://www.jianshu.com/p/af7c2e651f37)
+
 ## 以下是操作效果
 
 
