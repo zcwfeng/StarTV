@@ -22,6 +22,8 @@
 
 [react native 常见问题总结](https://www.jianshu.com/p/af7c2e651f37)
 
+[平台适配](http://www.orzzone.com/platform-specific-code-in-react-native.html)
+
 ## 以下是操作效果
 
 
